@@ -16,7 +16,7 @@ It is intentionally lightweight:
 - Prompt templates for planning, implementation, and review
 - Spec and decision-log templates you can copy into any new project
 - A commit-message template for solo development
-- A recommended Python and Android stack for free, small-scale projects
+- A recommended Python and Android stack for free personal, small-scale, and shared multi-user projects
 - A project decisions folder in `docs/sdd/project-decisions/`
 
 ## Recommended workflow

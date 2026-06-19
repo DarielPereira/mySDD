@@ -15,7 +15,8 @@ This repository is a template for spec-driven development. When working here, fo
 
 - Default to the Python stack documented in `docs/sdd/stack.md`.
 - For Android apps, prefer Kivy + Buildozer + SQLite when staying in Python is important.
-- For shared data, start with SQLite and only move to a server-side database when there is a concrete need.
+- For shared multi-user data, default to FastAPI + PostgreSQL behind the app client.
+- Use SQLite for offline-first or single-user data, not as the default shared database.
 - Reject heavier stacks unless the requirements clearly justify their cost.
 
 ## Working protocol
