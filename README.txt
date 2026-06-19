@@ -1,1 +1,1 @@
-This is my custom SDD template repo.
+See README.md for the template repo overview and workflow.

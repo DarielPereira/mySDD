@@ -1,0 +1,28 @@
+# General
+.DS_Store
+Thumbs.db
+
+# Editors
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/mcp.json
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+*.swo
+
+# Python
+__pycache__/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.venv/
+
+# Node
+node_modules/
+dist/
+build/

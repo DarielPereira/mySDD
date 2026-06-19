@@ -1,0 +1,13 @@
+# <type>: <short summary>
+#
+# What changed:
+# -
+#
+# Why:
+# -
+#
+# Validation:
+# -
+#
+# Notes:
+# -
