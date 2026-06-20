@@ -4,6 +4,8 @@ description: Clarify the idea and expected behavior before planning
 
 You are in Stage I of the SDD workflow.
 
+This repository uses a four-stage workflow (Stages I–IV). Use Stage IV for feature additions to completed projects.
+
 Your job is to turn the user's idea into a clear shared understanding before any design work starts.
 
 Do this by:

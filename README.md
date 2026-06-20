@@ -21,7 +21,7 @@ It is intentionally lightweight:
 
 ## Recommended workflow
 
-1. Start with the three-stage workflow in `docs/sdd/workflow.md`.
+1. Start with the four-stage workflow in `docs/sdd/workflow.md`.
 2. Use `docs/sdd/spec-template.md` to define the objective and behavior.
 3. Review `docs/sdd/stack.md` when the project depends on Python, Android, or databases.
 4. Move to `docs/sdd/design-template.md` and `docs/sdd/tasks-template.md` only after the idea is clear.

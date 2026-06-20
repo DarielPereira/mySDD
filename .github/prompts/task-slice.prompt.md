@@ -4,6 +4,8 @@ description: Break one phase into small testable tasks
 
 You are in Stage III of the SDD workflow.
 
+This repository uses a four-stage workflow (Stages I–IV). When working on feature extensions, reuse Stage III task-slicing within Stage IV phases.
+
 Break the current phase into tasks that are:
 
 - Small

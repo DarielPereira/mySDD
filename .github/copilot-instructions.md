@@ -24,8 +24,9 @@ This repository is a template for spec-driven development. When working here, fo
 1. Stage I: discuss the idea and expected behavior until the objective is clear.
 2. Stage II: plan the incremental development phases and their validation.
 3. Stage III: execute one phase at a time using small tasks that can be tested and committed.
-4. Record Stage I decisions in the project decisions folder before leaving Stage I.
-5. Before moving to a new stage, ask for confirmation if any decision is still ambiguous.
+4. Stage IV: add new features to an existing or completed project (enter on author request or after Stages I–III).
+5. Record Stage I decisions in the project decisions folder before leaving Stage I.
+6. Before moving to a new stage, ask for confirmation if any decision is still ambiguous.
 
 ## Agent behavior
 

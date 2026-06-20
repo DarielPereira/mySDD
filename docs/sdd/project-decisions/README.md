@@ -17,6 +17,7 @@ The goal is to capture the decisions made during Stage I, keep them updated if t
 1. Fill in `stage-1-decisions.md` before moving out of Stage I.
 2. Update the same folder whenever the idea, constraints, or scope changes.
 3. Use `phase-status.md` to confirm which stage or phase is currently active.
+4. Stage IV exists for adding new features to mature projects; follow the same phase/task patterns when using it.
 4. Create a `phase-<n>-tasks.md` file for each phase when you begin work on that phase. Use `docs/sdd/phase-tasks-template.md` as a starting point.
 5. Keep the entries short, factual, and aligned with the agreed plan.
 

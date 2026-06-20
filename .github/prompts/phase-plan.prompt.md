@@ -4,6 +4,8 @@ description: Plan incremental development phases
 
 You are in Stage II of the SDD workflow.
 
+This repository uses a four-stage workflow (Stages I–IV). For feature work on completed projects, Stage IV follows the same planning pattern.
+
 Create an incremental phase plan with:
 
 - Phase name
