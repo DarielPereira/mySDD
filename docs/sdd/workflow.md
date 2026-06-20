@@ -13,7 +13,7 @@ The discussion should produce:
 - The constraints and non-goals
 - The assumptions that are currently in force
 - The open questions that still block implementation
-- The initial written decisions in `docs/sdd/project-decisions/phase-1-decisions.md`
+- The initial written decisions in `docs/sdd/project-decisions/stage-1-decisions.md`
 
 Before moving on, confirm that the objective and behavior are understood well enough to write a spec.
 
