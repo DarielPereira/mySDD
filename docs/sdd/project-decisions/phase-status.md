@@ -3,6 +3,8 @@
 Use this file as the restore point for the current project state.
 Update it immediately after each completed phase or stage so the next session can resume from the written record without guessing.
 
+Agent rule: consult this file before starting work if you're unsure which stage/phase or task is current, and update it immediately after completing any task, phase milestone, or stage so the written record stays authoritative.
+
 ## Current stage
 
 ## Current phase
