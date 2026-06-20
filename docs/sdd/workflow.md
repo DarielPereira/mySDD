@@ -48,7 +48,7 @@ For every task:
 - Run the relevant tests for the task
 - Commit the change only after the tests pass
 - Summarize what was verified
-- Update `docs/sdd/project-decisions/phase-status.md` when the phase changes or is confirmed
+- Update `docs/sdd/project-decisions/phase-status.md` after each completed phase or stage so the work can be restored from the written record at any time
 
 Before moving to the next task or phase, confirm that the result is clear and that the next decision is still aligned with the plan.
 
