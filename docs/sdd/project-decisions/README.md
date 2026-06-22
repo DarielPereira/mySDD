@@ -1,28 +1,32 @@
 # Project Decisions
 
-Use this folder as the written source of truth for a specific project.
+This folder stores decisions and artifacts produced while using the SDD workflow.
 
-The goal is to capture the decisions made during Stage I, keep them updated if the idea changes, and preserve a clear record that the planned phases are being followed as agreed.
+Files here are intended to be authored and maintained by project contributors as they work through
+the SDD stages. Keep user-generated decision documents in this folder so the project's history,
+phase progress, and feature decisions can be restored from the repository.
 
-## Files
+Recommended files:
 
-- `stage-1-decisions.md`: the initial decisions from Stage I
-- `phase-status.md`: the current phase, status, and confirmation checkpoint
-- `phase-log.md`: optional running log of stage and phase changes, if the project needs more detail
-- `phase-<n>-tasks.md`: checklist of tasks for a given phase (create when executing that phase)
-- `docs/sdd/phase-tasks-template.md`: a template to create `phase-<n>-tasks.md` files
+- `S1-ProjectOutline.md` — initial alignment, expected behavior, constraints, non-goals, assumptions
+- `S2-PlanPhases.md` — the project-wide phase plan for Stage II
+- `S2-TechnologyStack.md` — canonical technology stack register and change history
+- `S2-DataModel.md` — canonical data model register and change history
+- `S3-phase-<n>-tasks.md` — tasks for a specific phase (create one file per phase during execution)
+- `S3-PhasesStatus.md` — status snapshot created and updated during Stage III
+- `S4-feature-<name>-tasks.md` — feature task file for Stage IV work
+- `phase-log.md` — (optional) chronological log of completed milestones
 
-## How to use it
+Recommended relationships:
 
-1. Fill in `stage-1-decisions.md` before moving out of Stage I.
-2. Update the same folder whenever the idea, constraints, or scope changes.
-3. Use `phase-status.md` to confirm which stage or phase is currently active.
-4. Stage IV exists for adding new features to mature projects; follow the same phase/task patterns when using it.
-4. Create a `phase-<n>-tasks.md` file for each phase when you begin work on that phase. Use `docs/sdd/phase-tasks-template.md` as a starting point.
-5. Keep the entries short, factual, and aligned with the agreed plan.
+- `S1-ProjectOutline.md` defines the problem and constraints that Stage II must satisfy.
+- `S2-PlanPhases.md` defines the phase order, acceptance criteria, and validation approach.
+- `S2-TechnologyStack.md` and `S2-DataModel.md` define the architecture that the phase plan depends on.
+- `S3-phase-<n>-tasks.md` expands one Stage II phase into executable tasks.
+- `S3-PhasesStatus.md` tracks the live implementation state during Stage III.
+- `S4-feature-<name>-tasks.md` captures feature-specific scope once the initial project is stable.
+- Later changes to the stack or data model are recorded in the `changes` sections of `S2-TechnologyStack.md` and `S2-DataModel.md`.
 
-## Rule
+Do not delete this folder; it is used to record and restore important project decisions.
 
-If a decision changes, update the folder immediately so the written record stays in sync with the real plan.
-
-- **Agent behavior:** Agents must consult `phase-status.md` before starting work when unsure about the current position in the implementation, and must update `phase-status.md` after completing tasks or phase milestones so the record can be used as a restore point.
+Last updated: 2026-06-22

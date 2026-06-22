@@ -13,20 +13,19 @@ It is intentionally lightweight:
 
 - A repeatable SDD workflow
 - Repo-specific Copilot instructions
-- Prompt templates for planning, implementation, and review
-- Spec and decision-log templates you can copy into any new project
+- Prompt templates for alignment, planning, implementation, validation, and review
+- Workflow templates you can copy into a new project and save under `docs/sdd/project-decisions/`
 - A commit-message template for solo development
-- A recommended Python and Android stack for free personal, small-scale, and shared multi-user projects
-- A project decisions folder in `docs/sdd/project-decisions/`
+- A project decisions folder for canonical stage, phase, and feature records
 
 ## Recommended workflow
 
 1. Start with the four-stage workflow in `docs/sdd/workflow.md`.
-2. Use `docs/sdd/spec-template.md` to define the objective and behavior.
-3. Review `docs/sdd/stack.md` when the project depends on Python, Android, or databases.
-4. Move to `docs/sdd/design-template.md` and `docs/sdd/tasks-template.md` only after the idea is clear.
-5. Use the prompt templates to keep each stage focused.
-6. Test and commit each task before moving forward.
+2. Use the Stage I, II, III, and IV templates in `docs/sdd/templates/` to capture the project record.
+3. Save the reviewed stage artifacts into `docs/sdd/project-decisions/` as the project evolves.
+4. Use the prompts in `.github/prompts/` to keep each stage focused and consistent.
+5. Test and commit each task before moving forward.
+6. If implementation drifts from the plan, update the decision documents before widening scope.
 
 ## Philosophy
 
@@ -41,7 +40,9 @@ This template is optimized for personal projects and small collaboration. That m
 
 Copy the templates under `docs/sdd/` into a project-specific folder, then follow the stage gates before writing code.
 
-If you want the project-specific source of truth, start with `docs/sdd/project-decisions/README.md` and keep that folder updated whenever a planning decision changes.
+If you want the project-specific source of truth, start with `docs/sdd/project-decisions/README.md` and keep that folder updated whenever a stage, phase, feature, or architecture decision changes.
+
+The canonical templates live in `docs/sdd/templates/` and the matching prompts live in `.github/prompts/`.
 
 To use the commit template locally, run:
 

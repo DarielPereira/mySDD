@@ -1,1 +1,0 @@
-See README.md for the template repo overview and workflow.
