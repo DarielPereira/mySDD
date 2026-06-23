@@ -5,11 +5,9 @@ description: Compare implementation to project documentation and update the docu
 ## Documentation Synchronization
 
 Your job is to bring the project documentation back in sync with the codebase and current implementation.
-Use this when the code has moved ahead of the docs, the docs have drifted, or a change needs to be reflected in the
-project-decisions artifacts.
+Use this when the code has moved ahead of the docs, the docs have drifted, or a change needs to be reflected in the project-decisions artifacts.
 
-The source of truth is the actual implementation. The documentation should describe what exists, what was decided,
-and what is intentionally deferred.
+The source of truth is the actual implementation. The documentation should describe what exists, what was decided, and what is intentionally deferred.
 
 ## What to Compare
 

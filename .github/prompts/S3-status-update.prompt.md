@@ -4,8 +4,7 @@ description: Update Phase status after completing a task or phase during Stage I
 
 ## Maintaining Implementation Status in Stage III
 
-You are updating the execution status as tasks and phases complete. This keeps the team synchronized
-and enables recovery if work is interrupted.
+You are updating the execution status as tasks and phases complete. This keeps the team synchronized and enables recovery if work is interrupted.
 
 Use the status template: [docs/sdd/templates/S3-PhasesStatus-template.md](docs/sdd/templates/S3-PhasesStatus-template.md#L1)
 

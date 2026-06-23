@@ -1,8 +1,6 @@
 # S4 — Feature Tasks (Template)
 
-Use this template when introducing a new feature during Stage IV. Create one file per feature and
-save the completed document in `docs/sdd/project-decisions/` as `S4-feature-<name>-tasks.md` (for
-example, `S4-user-import-tasks.md`).
+Use this template when introducing a new feature during Stage IV. Create one file per feature and save the completed document in `docs/sdd/project-decisions/` as `S4-<feature-name>-tasks.md` (for example, `S4-user-import-tasks.md`).
 
 Stage IV feature work is tracked in a structure similar to Stage III phase work: the feature file
 should be detailed enough that the implementation, validation, and follow-up work are clear from the

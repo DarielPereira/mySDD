@@ -1,13 +1,8 @@
 # S2 — Technology Stack (Template)
 
-Use this template to record the project's selected technology stack, how the technologies relate to
-each other, and the decisions behind the selection. The finalized document should be saved in
-`docs/sdd/project-decisions/S2-TechnologyStack.md` and treated as the authoritative register for
-technology choices.
+Use this template to record the project's selected technology stack, how the technologies relate to each other, and the decisions behind the selection. The finalized document should be saved in `docs/sdd/project-decisions/S2-TechnologyStack.md` and treated as the authoritative register for technology choices.
 
-This document should describe both the current stack and any later changes to it. If the project
-changes technology direction, update this document and record the decision, the motivation, and the
-impact on the project plan.
+This document should describe both the current stack and any later changes to it. If the project changes technology direction, update this document and record the decision, the motivation, and the impact on the project plan.
 
 ## Project context
 
@@ -43,13 +38,11 @@ Example sections:
 
 ## Interactions and boundaries
 
-Explain how the technologies interrelate, including integration points, data flow, APIs, storage,
-deployment boundaries, and any cross-cutting concerns.
+Explain how the technologies interrelate, including integration points, data flow, APIs, storage, deployment boundaries, and any cross-cutting concerns.
 
 ## Selection criteria
 
-List the criteria used to choose the stack (cost, maintenance, team skill, portability, performance,
-deployment, licensing, etc.).
+List the criteria used to choose the stack (cost, maintenance, team skill, portability, performance, deployment, licensing, etc.).
 
 ## Alternatives considered
 

@@ -4,8 +4,7 @@
 
 This template documents the full, planned sequence of incremental phases for the project. Use a single S2 file to list and describe all phases that will be addressed during implementation. The completed S2 plan becomes the project's canonical Phase Plan and should be saved to `docs/sdd/project-decisions/S2-PlanPhases.md` after review.
 
-Purpose: capture the ordered set of phases, their dependencies, acceptance criteria, validation
-approach, and risks so the project can be executed, validated, and restored from the repository.
+Purpose: capture the ordered set of phases, their dependencies, acceptance criteria, validation approach, and risks so the project can be executed, validated, and restored from the repository.
 
 ## Overview
 

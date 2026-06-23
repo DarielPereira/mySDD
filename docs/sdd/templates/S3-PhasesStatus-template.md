@@ -40,8 +40,7 @@ List the task or phase milestones that have already been completed and verified.
 
 ## Recovery notes
 
-Record anything needed to restore the current state, including branch, commit, environment, or
-decision references.
+Record anything needed to restore the current state, including branch, commit, environment, or decision references.
 
 ## Last updated
 

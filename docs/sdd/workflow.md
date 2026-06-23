@@ -89,12 +89,10 @@ When to use it:
 What to do in Stage IV:
 
 - Define the new feature scope and constraints (treat as a mini Stage I for the feature).
-- Plan feature implementation as a set of feature tasks (reuse Stage III patterns for feature work)
-	and document them with [docs/sdd/templates/S4-feature-name-tasks-template.md](docs/sdd/templates/S4-feature-name-tasks-template.md#L1).
-- Create `S4-feature-<name>-tasks.md` files in `docs/sdd/project-decisions/` for each introduced
-	feature, using the Stage IV template as the source format.
-- Run tests, document any decisions, and keep the `project-decisions` folder up to date so the
-	feature work is restorable.
+- Plan feature implementation as a set of feature tasks and document them with [docs/sdd/templates/S4-feature-name-tasks-template.md](docs/sdd/templates/S4-feature-name-tasks-template.md#L1).
+- Create `S4-<feature-name>-tasks.md` files in `docs/sdd/project-decisions/` for each introduced feature, using the Stage IV template as the source format.
+- Run tests, document any decisions, and keep the `project-decisions` folder up to date so the feature work is restorable.
+
 ## Working rule
 
 If anything is ambiguous at a stage boundary, stop and clarify before advancing. Do not silently assume a bigger design decision than the user has agreed to.
