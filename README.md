@@ -5,7 +5,6 @@ This repository is a template for spec-driven development with GitHub Copilot.
 It is intentionally lightweight:
 
 - Markdown-first workflow
-- Free tools only unless a project clearly needs more
 - Small, private, or small-team projects
 - Copilot used as a collaborator, not as a replacement for specs and tests
 
@@ -29,15 +28,6 @@ The repository is intentionally shipped as a scaffold. The `docs/sdd/project-dec
 5. Test and commit each task before moving forward.
 6. If implementation drifts from the plan, update the decision documents before widening scope.
 
-## Philosophy
-
-This template is optimized for personal projects and small collaboration. That means:
-
-- Prefer the simplest tool that works
-- Avoid paid services unless they clearly save time
-- Keep the architecture boring and easy to maintain
-- Favor explicit requirements over vague implementation ideas
-
 ## Next step
 
 Copy the templates under `docs/sdd/` into a project-specific folder, then follow the stage gates before writing code.
@@ -48,8 +38,3 @@ If you want the project-specific source of truth, start with `docs/sdd/project-d
 
 The canonical templates live in `docs/sdd/templates/` and the matching prompts live in `.github/prompts/`.
 
-To use the commit template locally, run:
-
-```bash
-git config commit.template .gitmessage.txt
-```
