@@ -96,3 +96,17 @@ What to do in Stage IV:
 ## Working rule
 
 If anything is ambiguous at a stage boundary, stop and clarify before advancing. Do not silently assume a bigger design decision than the user has agreed to.
+
+## Context7 documentation rule
+
+Before planning, implementing, validating, or reviewing work that depends on external libraries,
+frameworks, SDKs, or service APIs, use Context7 MCP to fetch up-to-date documentation first.
+
+Use this as the default sequence:
+
+1. Resolve the exact library id in Context7.
+2. Query Context7 docs for the exact API/version behavior needed for the task.
+3. Proceed with planning or execution using that retrieved documentation as the source.
+
+If Context7 is unavailable for a specific step, record that in the task notes and proceed with
+explicit assumptions and a follow-up validation step.

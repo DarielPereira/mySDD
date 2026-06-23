@@ -7,6 +7,9 @@ description: Compare implementation to project documentation and update the docu
 Your job is to bring the project documentation back in sync with the codebase and current implementation.
 Use this when the code has moved ahead of the docs, the docs have drifted, or a change needs to be reflected in the project-decisions artifacts.
 
+When synchronization touches external libraries/frameworks/APIs, use Context7 MCP to verify current
+documentation before updating decision records or validation notes.
+
 The source of truth is the actual implementation. The documentation should describe what exists, what was decided, and what is intentionally deferred.
 
 ## What to Compare

@@ -7,6 +7,9 @@ description: Verify a change against the plan and run enough tests to ensure not
 Use this prompt after any change that might have drifted from the approved plan, task list, or documented scope.
 Your job is to prove the change is safe or identify exactly what it broke.
 
+When the change depends on external libraries/frameworks/APIs, use Context7 MCP to confirm current
+expected behavior before asserting pass/fail against those surfaces.
+
 This prompt is for test execution and plan validation. For human code review and architecture critique,
 use [review.prompt.md](.github/prompts/review.prompt.md).
 

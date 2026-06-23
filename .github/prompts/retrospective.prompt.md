@@ -7,6 +7,9 @@ description: Conduct a phase or project retrospective to capture learning and im
 After a phase completes (Stage III) or the project concludes (Stage IV), conduct a retrospective to
 capture what worked, what did not, and what to improve next time.
 
+When retrospective findings involve external libraries/frameworks/APIs, validate references with
+Context7 MCP before recording final lessons or action items.
+
 Retros are not blame sessions—they are learning sessions. The goal is to improve the SDD workflow itself
 and team capability.
 

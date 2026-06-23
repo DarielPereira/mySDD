@@ -9,6 +9,9 @@ Review the change with three goals:
 2. **Alignment.** Does it match the spec, phase plan, and decision record?
 3. **Quality.** Is it maintainable, testable, and safe?
 
+If the change relies on external libraries/frameworks/APIs, check current documentation via
+Context7 MCP before concluding correctness or recommending architecture adjustments.
+
 This prompt is for human-style review and design critique. For test-driven regression validation, use
 [regression-check.prompt.md](.github/prompts/regression-check.prompt.md).
 

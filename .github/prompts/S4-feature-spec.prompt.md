@@ -6,6 +6,9 @@ description: Define the scope and acceptance criteria for a Stage IV feature bef
 
 You are in Stage IV, adding a feature to a completed project. Before implementation, define the feature scope clearly using the Stage IV feature specification approach.
 
+Before finalizing feature dependencies or acceptance criteria tied to external libraries/frameworks/APIs,
+retrieve current documentation with Context7 MCP.
+
 Use the template: [docs/sdd/templates/S4-feature-name-tasks-template.md](docs/sdd/templates/S4-feature-name-tasks-template.md#L1)
 
 A Stage IV feature is not a full phase (Stage III). It is a scoped capability that fits into the existing architecture without major rework. However, it still deserves a clear specification to prevent scope creep and misalignment with the existing system.

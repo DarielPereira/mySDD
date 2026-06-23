@@ -7,6 +7,9 @@ description: Record changes to an existing technology or data model decision
 Use this prompt only when an existing Stage II technology stack or data model decision changes during
 Stage III or IV. Do not use it for the initial architecture record; use [S2-decisions.prompt.md](.github/prompts/S2-decisions.prompt.md) instead.
 
+Before recording technology changes involving external libraries/frameworks/APIs, verify the current
+reference documentation with Context7 MCP and capture those references in the decision rationale.
+
 This creates a changelog of architectural evolution without duplicating the original decision record.
 
 ## When to Record a Decision

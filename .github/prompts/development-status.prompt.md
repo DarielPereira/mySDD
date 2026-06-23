@@ -10,6 +10,9 @@ project-decisions documentation and identify the current stage, active phase, an
 Use the canonical decision artifacts in [docs/sdd/project-decisions/](docs/sdd/project-decisions/) as the source of truth.
 If the documentation is stale or contradictory, say so explicitly.
 
+If status depends on behavior from external libraries/frameworks/APIs, verify current references with
+Context7 MCP before concluding that documented acceptance criteria are still valid.
+
 ## What to Inspect
 
 Look for the most recent and relevant artifacts in this order:

@@ -35,6 +35,8 @@ This repository is a template for spec-driven development. When working here, fo
 - Do not over-explain when a direct answer is enough.
 - Do not under-explain when a decision affects scope, cost, or correctness.
 - Prefer the smallest clarifying question that removes the biggest uncertainty.
+- Before planning or executing work that depends on external libraries, frameworks, SDKs, or APIs,
+  fetch current documentation via Context7 MCP first; if unavailable, state assumptions explicitly.
 
 ## SDD workflow
 

@@ -6,6 +6,9 @@ description: Update Phase status after completing a task or phase during Stage I
 
 You are updating the execution status as tasks and phases complete. This keeps the team synchronized and enables recovery if work is interrupted.
 
+When verification notes reference external libraries/frameworks/APIs, confirm expected behavior via
+Context7 MCP before marking related checks as verified.
+
 Use the status template: [docs/sdd/templates/S3-PhasesStatus-template.md](docs/sdd/templates/S3-PhasesStatus-template.md#L1)
 
 The status file is created once when Stage III begins. It is updated after:

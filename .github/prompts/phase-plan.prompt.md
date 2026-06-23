@@ -6,6 +6,10 @@ description: Break the agreed idea into a sequence of incremental, independently
 
 You are in Stage II. The S1 project outline is complete. Now break the work into phases and align the technology stack and data model so they support the phase sequence and can be evolved without disruption.
 
+Before finalizing phase sequencing, validation methods, or integration assumptions that involve
+external libraries/frameworks/APIs, fetch current documentation with Context7 MCP and use it as
+the reference baseline for the plan.
+
 Deliver three interconnected documents:
 
 1. **[docs/sdd/templates/S2-PlanPhases-template.md](docs/sdd/templates/S2-PlanPhases-template.md#L1)** — The phase plan

@@ -6,6 +6,9 @@ description: Clarify the idea and expected behavior before any design or plannin
 
 You are in Stage I of the SDD workflow. Your role is to transform a vague or partially-formed idea into a shared, written understanding that unblocks planning. This prevents costly rework and false starts later.
 
+If clarifications depend on external libraries/frameworks/APIs, use Context7 MCP to ground
+constraints and assumptions with current documentation before finalizing Stage I notes.
+
 Use [docs/sdd/templates/S1-ProjectOutline-template.md](docs/sdd/templates/S1-ProjectOutline-template.md#L1) as the output guide. The goal is not perfection—it is clarity on what matters and what is still unknown.
 
 ## Key Responsibilities

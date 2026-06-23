@@ -7,6 +7,9 @@ description: Plan validation, testing strategy, and deployment approach for a ph
 Before (or during) Phase III execution, plan how the phase will be validated and deployed to production.
 This prevents last-minute surprises and ensures quality gates are met before users see the changes.
 
+Before defining validation steps for external library/framework/API behavior, retrieve the relevant
+documentation with Context7 MCP and base test expectations on that source.
+
 This prompt is for phase-level validation and release planning. For a single task implementation slice,
 use [implement.prompt.md](.github/prompts/implement.prompt.md). For code review, use [review.prompt.md](.github/prompts/review.prompt.md).
 

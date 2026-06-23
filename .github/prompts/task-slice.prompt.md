@@ -6,6 +6,9 @@ description: Decompose a phase into independently-executable, testable tasks
 
 You are in Stage III. The S2 phase plan exists. Now decompose one phase into the smallest tasks that are:
 
+Before defining execution tasks that rely on external libraries/frameworks/APIs, retrieve current
+documentation via Context7 MCP so task boundaries and validation steps match real API behavior.
+
 - **Small.** Completable in a single work session (hours, not days). Small tasks reduce the risk of undiscovered
   blockers and make progress visible.
 - **Testable.** Each task has a clear validation step. You can confirm it works without depending on later tasks.

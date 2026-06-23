@@ -11,6 +11,9 @@ You are implementing one task within a larger phase or feature. Your job is to d
 - Is easy to understand and review
 - Can be rolled back safely if needed
 
+Before changing code that depends on external libraries/frameworks/APIs, query Context7 MCP for
+the current documentation and align the implementation with that reference.
+
 This prompt is for single-task implementation. For phase-level validation and deployment planning, use
 [validate-and-deploy.prompt.md](.github/prompts/validate-and-deploy.prompt.md).
 

@@ -7,6 +7,9 @@ description: Analyze dependencies and integration points between phases to ident
 Before executing phases or features, map dependencies and integration points. This prevents blocking,
 rework, and cascading failures.
 
+When dependencies involve external libraries/frameworks/APIs, fetch the latest relevant references
+with Context7 MCP before finalizing dependency constraints or integration risks.
+
 Use this prompt when the project has non-trivial cross-phase coupling, multiple teams, external
 integrations, or parallel execution risk. For simple phase plans, keep dependency notes in
 [phase-plan.prompt.md](.github/prompts/phase-plan.prompt.md) and do not invoke this prompt.

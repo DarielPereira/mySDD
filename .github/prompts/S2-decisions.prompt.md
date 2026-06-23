@@ -8,6 +8,9 @@ You are documenting the technology stack and data model decisions that will guid
 in Stage III. Use this prompt for the initial architecture record only. If an established decision changes
 later during Stage III or IV, use [decision-log.prompt.md](.github/prompts/decision-log.prompt.md).
 
+Before documenting any library/framework/API decision, use Context7 MCP to retrieve current
+documentation for the specific technology and version under consideration.
+
 These initial decisions are recorded in two canonical registers:
 
 1. [docs/sdd/templates/S2-TechnologyStack-template.md](docs/sdd/templates/S2-TechnologyStack-template.md#L1)
