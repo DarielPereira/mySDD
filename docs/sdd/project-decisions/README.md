@@ -2,9 +2,9 @@
 
 This folder stores decisions and artifacts produced while using the SDD workflow.
 
-Files here are intended to be authored and maintained by project contributors as they work through
-the SDD stages. Keep user-generated decision documents in this folder so the project's history,
-phase progress, and feature decisions can be restored from the repository.
+In the template repository, this folder is a starting point rather than a completed project record. The stage files are expected to be added by the project that uses the template.
+
+Files here are intended to be authored and maintained by project contributors as they work through the SDD stages. Keep user-generated decision documents in this folder so the project's history, phase progress, and feature decisions can be restored from the repository.
 
 Recommended files:
 

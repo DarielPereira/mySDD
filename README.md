@@ -18,6 +18,8 @@ It is intentionally lightweight:
 - A commit-message template for solo development
 - A project decisions folder for canonical stage, phase, and feature records
 
+The repository is intentionally shipped as a scaffold. The `docs/sdd/project-decisions/` folder starts with guidance only; the stage artifacts are created later by the project that uses this template.
+
 ## Recommended workflow
 
 1. Start with the four-stage workflow in `docs/sdd/workflow.md`.
@@ -39,6 +41,8 @@ This template is optimized for personal projects and small collaboration. That m
 ## Next step
 
 Copy the templates under `docs/sdd/` into a project-specific folder, then follow the stage gates before writing code.
+
+If you are starting a new project from this template, create the canonical files in `docs/sdd/project-decisions/` as soon as Stage I and Stage II decisions are made.
 
 If you want the project-specific source of truth, start with `docs/sdd/project-decisions/README.md` and keep that folder updated whenever a stage, phase, feature, or architecture decision changes.
 
